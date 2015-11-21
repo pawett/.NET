@@ -8,3 +8,16 @@ D:\VSProjects\Regata\Datos\bin\Debug\NDatabase3.xml
 D:\VSProjects\Regata\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
 D:\VSProjects\Regata\Datos\obj\Debug\Datos.dll
 D:\VSProjects\Regata\Datos\obj\Debug\Datos.pdb
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.xml
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml

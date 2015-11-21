@@ -2,3 +2,17 @@ D:\VSProjects\Regata\Entidades\bin\Debug\Entidades.dll
 D:\VSProjects\Regata\Entidades\bin\Debug\Entidades.pdb
 D:\VSProjects\Regata\Entidades\obj\Debug\Entidades.dll
 D:\VSProjects\Regata\Entidades\obj\Debug\Entidades.pdb
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.dll
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.xml
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\VSProjects\Regata\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
