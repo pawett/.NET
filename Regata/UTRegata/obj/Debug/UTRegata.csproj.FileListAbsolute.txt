@@ -1,0 +1,14 @@
+c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\obj\Debug\UTRegata.csprojResolveAssemblyReference.cache
+c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\bin\Debug\UTRegata.dll
+c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\bin\Debug\UTRegata.pdb
+c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\bin\Debug\Regata.dll
+c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\bin\Debug\Regata.pdb
+c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\obj\Debug\UTRegata.dll
+c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\obj\Debug\UTRegata.pdb
+D:\VSProjects\Regata\UTRegata\obj\Debug\UTRegata.csprojResolveAssemblyReference.cache
+D:\VSProjects\Regata\UTRegata\bin\Debug\UTRegata.dll
+D:\VSProjects\Regata\UTRegata\bin\Debug\UTRegata.pdb
+D:\VSProjects\Regata\UTRegata\bin\Debug\Regata.Negocio.dll
+D:\VSProjects\Regata\UTRegata\bin\Debug\Regata.Negocio.pdb
+D:\VSProjects\Regata\UTRegata\obj\Debug\UTRegata.dll
+D:\VSProjects\Regata\UTRegata\obj\Debug\UTRegata.pdb

@@ -1,0 +1,10 @@
+c:\users\pawett\documents\visual studio 2012\Projects\Regata\Regata\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+c:\users\pawett\documents\visual studio 2012\Projects\Regata\Regata\bin\Debug\Regata.dll
+c:\users\pawett\documents\visual studio 2012\Projects\Regata\Regata\bin\Debug\Regata.pdb
+c:\users\pawett\documents\visual studio 2012\Projects\Regata\Regata\obj\Debug\Regata.dll
+c:\users\pawett\documents\visual studio 2012\Projects\Regata\Regata\obj\Debug\Regata.pdb
+D:\VSProjects\Regata\Regata\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\VSProjects\Regata\Regata\obj\Debug\Regata.dll
+D:\VSProjects\Regata\Regata\bin\Debug\Regata.dll
+D:\VSProjects\Regata\Regata\bin\Debug\Regata.pdb
+D:\VSProjects\Regata\Regata\obj\Debug\Regata.pdb

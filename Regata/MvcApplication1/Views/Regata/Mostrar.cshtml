@@ -1,0 +1,26 @@
+﻿@model MvcApplication1.Models.RegataViewModel
+
+@{
+    ViewBag.Title = "Mostrar";
+}
+
+<h2>@Html.DisplayFor(model => model.Nombre) -  @Html.DisplayFor(model => model.FechaInicio) -  @Html.DisplayFor(model => model.FechaFin) </h2>
+
+<fieldset>
+    <legend>Datos Regata</legend>
+ 
+  <div class="display-label">
+      @Html.Display("Clases")
+  </div>      
+   
+    <div class="display-field">
+       @{Html.RenderAction("Index", "RegataClase", Model.Nombre);}
+    
+
+   </div>
+</fieldset>
+<p>
+            <input type="submit" value="EditRegata" />
+
+    @Html.ActionLink("Back to List", "Index")
+</p>

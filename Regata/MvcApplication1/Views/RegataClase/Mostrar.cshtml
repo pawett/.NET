@@ -1,0 +1,14 @@
+﻿@model MvcApplication1.Models.RegataClaseViewModel
+
+<h2> @Html.DisplayFor(model => model.TituloRegata) -  @Html.DisplayFor(model => model.Clase.Nombre)</h2>
+<fieldset>
+    <legend>RegataClaseViewModel</legend>
+
+    <div>        
+        @Html.DisplayFor(model=>model.Clasificacion.TablaResultados)      
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+        @Html.ActionLink("Back to List", "Index")
+</p>

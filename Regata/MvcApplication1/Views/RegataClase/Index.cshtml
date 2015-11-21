@@ -1,0 +1,28 @@
+﻿@model IEnumerable<MvcApplication1.Models.RegataClaseViewModel>
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table>
+    <tr>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+           
+            @Html.DisplayFor(model=>item.Clase.Nombre)
+        </td>
+        
+        <td>
+            @Html.ActionLink("Edit", "Editar", new{regata=item.TituloRegata,clase=item.Clase.Nombre}) |
+            @Html.ActionLink("Ver", "Mostrar", new{regata=item.TituloRegata,clase=item.Clase.Nombre}) |
+            @Html.ActionLink("Delete", "Delete", new{regata=item.TituloRegata,clase=item.Clase.Nombre})
+        </td>
+    </tr>
+}
+
+</table>

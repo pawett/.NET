@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DynamicLinqExtensions</id>
+    <version>1.0.2</version>
+    <title>Dynamic Linq Extensions</title>
+    <authors>Chris Perry</authors>
+    <owners>Chris Perry</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This project is used to call dynamic linq functions on unknown types.  The dynamic linq query is structured using reflection.</description>
+    <tags>Dynamic Linq</tags>
+  </metadata>
+</package>

@@ -1,0 +1,14 @@
+﻿@model Regata.Negocio.Clasificacion
+
+ @foreach (Regata.Negocio.Embarcacion embarcacion in Model.PuntuacionesMangas().Keys)
+        {
+                            @Html.DisplayText(embarcacion.NumeroVela)
+                      
+                            foreach (var manga in Model.PuntuacionesMangas()[embarcacion].Keys)
+                            {
+                                @Html.DisplayText(Model.PuntuacionesMangas()[embarcacion][manga].ToString())
+                            }
+
+             
+
+        }

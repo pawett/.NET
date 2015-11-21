@@ -1,0 +1,10 @@
+D:\VSProjects\Regata\Datos\bin\Debug\Datos.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Datos.pdb
+D:\VSProjects\Regata\Datos\bin\Debug\NDatabase3.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Regata.Negocio.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Regata.Negocio.pdb
+D:\VSProjects\Regata\Datos\bin\Debug\NDatabase3.pdb
+D:\VSProjects\Regata\Datos\bin\Debug\NDatabase3.xml
+D:\VSProjects\Regata\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+D:\VSProjects\Regata\Datos\obj\Debug\Datos.dll
+D:\VSProjects\Regata\Datos\obj\Debug\Datos.pdb

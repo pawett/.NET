@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Regata.Negocio.Clase>
+
+
+<table>
+   
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Quitar", "QuitarClase", item.Nombre)
+        </td>
+    </tr>
+}
+
+</table>

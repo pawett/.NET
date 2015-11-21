@@ -1,0 +1,7 @@
+D:\VSProjects\Regata\WindowsUI\bin\Debug\WindowsUI.exe.config
+D:\VSProjects\Regata\WindowsUI\bin\Debug\WindowsUI.exe
+D:\VSProjects\Regata\WindowsUI\bin\Debug\WindowsUI.pdb
+D:\VSProjects\Regata\WindowsUI\obj\Debug\WindowsUI.Properties.Resources.resources
+D:\VSProjects\Regata\WindowsUI\obj\Debug\WindowsUI.csproj.GenerateResource.Cache
+D:\VSProjects\Regata\WindowsUI\obj\Debug\WindowsUI.exe
+D:\VSProjects\Regata\WindowsUI\obj\Debug\WindowsUI.pdb

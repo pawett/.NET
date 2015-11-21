@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>DynamicMVC</id>
+    <version>2.0.11</version>
+    <title>Dynamic MVC</title>
+    <authors>Precision Technology Solutions</authors>
+    <owners>Precision Technology Solutions</owners>
+    <licenseUrl>https://dynamicmvc.codeplex.com/license</licenseUrl>
+    <projectUrl>https://dynamicmvc.codeplex.com/</projectUrl>
+    <iconUrl>http://www.dynamicmvc.com/img/DynamicMVCProjectTemplate.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dynamically generate data centric pages from your model objects.</description>
+    <summary>Dynamically generate data centric pages from your model objects.</summary>
+    <releaseNotes>This is a stable release</releaseNotes>
+    <copyright>Precision Technology Solutions</copyright>
+    <dependencies>
+      <dependency id="Select2.js" version="3.5.1" />
+      <dependency id="DynamicLinqExtensions" version="1.0.2" />
+      <dependency id="jQuery.UI.Combined" version="1.11.1" />
+    </dependencies>
+  </metadata>
+</package>

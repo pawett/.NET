@@ -1,0 +1,4 @@
+D:\VSProjects\Regata\Entidades\bin\Debug\Entidades.dll
+D:\VSProjects\Regata\Entidades\bin\Debug\Entidades.pdb
+D:\VSProjects\Regata\Entidades\obj\Debug\Entidades.dll
+D:\VSProjects\Regata\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Regata.Negocio.Regata>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listado Regatas</h2>
+  @using (Html.BeginForm()) {
+   
+<p>
+    @Html.ActionLink("Create New", "Crear")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaInicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaFin)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+  
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaInicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaFin)
+        </td>
+        <td>
+              @Html.Partial("_Clases", item.Clases)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Editar", new { nombre = item.Nombre }) |
+            @Html.ActionLink("Ver", "Mostrar", new { nombre = item.Nombre }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+    
+}
+
+</table>
+}

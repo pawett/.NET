@@ -1,0 +1,2 @@
+D:\VSProjects\Regata\Mapper-AddIn\obj\Debug\Mapper-AddIn.csprojResolveAssemblyReference.cache
+D:\VSProjects\Regata\Mapper-AddIn\obj\Debug\Mapper-AddIn.csproj.ResolveComReference.cache
