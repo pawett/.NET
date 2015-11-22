@@ -15,4 +15,3 @@ D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.Configuration
 D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
 D:\VSProjects\Regata\Entidades\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
-D:\VSProjects\Regata\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

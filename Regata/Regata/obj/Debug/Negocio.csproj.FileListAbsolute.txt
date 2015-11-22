@@ -5,7 +5,6 @@ D:\VSProjects\Regata\Regata\bin\Debug\NDatabase3.pdb
 D:\VSProjects\Regata\Regata\bin\Debug\NDatabase3.xml
 D:\VSProjects\Regata\Regata\obj\Debug\Regata.Negocio.dll
 D:\VSProjects\Regata\Regata\obj\Debug\Regata.Negocio.pdb
-D:\VSProjects\Regata\Regata\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 D:\VSProjects\Regata\Regata\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 D:\VSProjects\Regata\Regata\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
 D:\VSProjects\Regata\Regata\bin\Debug\Microsoft.Practices.Unity.dll

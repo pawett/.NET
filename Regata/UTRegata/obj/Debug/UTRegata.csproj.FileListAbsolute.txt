@@ -5,7 +5,6 @@ c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\bin\Debug\
 c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\bin\Debug\Regata.pdb
 c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\obj\Debug\UTRegata.dll
 c:\Users\pawett\documents\visual studio 2012\Projects\Regata\UTRegata\obj\Debug\UTRegata.pdb
-D:\VSProjects\Regata\UTRegata\obj\Debug\UTRegata.csprojResolveAssemblyReference.cache
 D:\VSProjects\Regata\UTRegata\bin\Debug\UTRegata.dll
 D:\VSProjects\Regata\UTRegata\bin\Debug\UTRegata.pdb
 D:\VSProjects\Regata\UTRegata\bin\Debug\Regata.Negocio.dll
@@ -25,3 +24,8 @@ D:\VSProjects\Regata\UTRegata\bin\Debug\Microsoft.Practices.Unity.Configuration.
 D:\VSProjects\Regata\UTRegata\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 D:\VSProjects\Regata\UTRegata\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
 D:\VSProjects\Regata\UTRegata\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\VSProjects\Regata\UTRegata\bin\Debug\Datos.dll
+D:\VSProjects\Regata\UTRegata\bin\Debug\Db4objects.Db4o.dll
+D:\VSProjects\Regata\UTRegata\bin\Debug\Datos.pdb
+D:\VSProjects\Regata\UTRegata\bin\Debug\Db4objects.Db4o.xml
+D:\VSProjects\Regata\UTRegata\obj\Debug\UTRegata.csprojResolveAssemblyReference.cache

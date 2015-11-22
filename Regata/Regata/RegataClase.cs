@@ -24,7 +24,7 @@ namespace Regata.Negocio
             if (EmbarcacionesInscritas == null) EmbarcacionesInscritas = new List<Embarcacion>();
             if (sistemaPuntuacion == null)
             {
-                sistemaPuntuacion = PuntuacionCreador.Crear(tipoPuntuacion, EmbarcacionesInscritas.Count, posicionesPenalizacion);
+                sistemaPuntuacion = PuntuacionFactory.Crear(tipoPuntuacion, EmbarcacionesInscritas.Count, posicionesPenalizacion);
             }
         }
 

@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace Regata.Negocio
 {
-    public static class PuntuacionCreador
+    public static class PuntuacionFactory
     {
+       private static readonly Dictionary<TipoPuntuacion,Func<int,int,PuntuacionBase>> puntuacion = new Dictionary<TipoPuntuacion,Func<int,int,PuntuacionBase>>
+       {
+        {TipoPuntuacion.Baja,(numeroInscritos,posicionesPenalizacion) => new PuntuacionBaja(numeroInscritos,posicionesPenalizacion)}
+       };
        
         public static PuntuacionBase Crear(TipoPuntuacion tipoPuntuacion,int numeroInscritos,int posicionesPenalizacion)
         {
-            switch (tipoPuntuacion)
-            {
-                case TipoPuntuacion.Baja:
-                default:
-                    return new PuntuacionBaja(numeroInscritos, posicionesPenalizacion);
-            }
+            return puntuacion[tipoPuntuacion](numeroInscritos,posicionesPenalizacion);
         }
        
     }

@@ -8,6 +8,7 @@ using MvcApplication1.Models;
 using MvcApplication1.Datos;
 using MvcApplication1.Extensions;
 using System.Web.UI.WebControls;
+using Datos.Repositorios;
 
 namespace MvcApplication1.Controllers
 {
@@ -21,10 +22,12 @@ namespace MvcApplication1.Controllers
 
         private void Inicializar()
         {
-            
+            RegataRepositorio repo = new RegataRepositorio();
             Regata.Negocio.Regata r1 = new Regata.Negocio.Regata("Regata1",DateTime.Now,DateTime.Now.AddDays(5));
             Regata.Negocio.Regata r2 = new Regata.Negocio.Regata("Regata2",r1.FechaFin,r1.FechaInicio.AddDays(2));
             Regata.Negocio.Regata r3 = new Regata.Negocio.Regata("Regata3",r2.FechaFin,r2.FechaFin.AddDays(4));
+
+            
             
             Clase c1 = new Clase();
             Clase c2 = new Clase();
@@ -81,6 +84,15 @@ namespace MvcApplication1.Controllers
             Inicializador.regatas.Add(r2);
             Inicializador.regatas.Add(r3);
 
+            repo.Guardar(r1);
+            repo.Guardar(r2);
+            repo.Guardar(r3);
+            for (int i = 5000; i > 1; i--)
+            {
+                var regata = new Regata.Negocio.Regata("Regata" + i, r2.FechaFin.AddDays(-i), r2.FechaFin.AddDays(-i));
+                regata.AñadirRegataClase(rClase);
+                Inicializador.regatas.Add(regata);
+            }
             inicializado = true;
         }
         private Embarcacion GenerarEmbarcacion()
@@ -95,14 +107,14 @@ namespace MvcApplication1.Controllers
         {
             if (!inicializado) Inicializar();
 
-            return View(Inicializador.regatas.OrderBy(r=>r.FechaInicio));
+            return View(new RegataRepositorio().ObtenerTodo().OrderBy(r=>r.FechaInicio));
         }
      
         public ActionResult Mostrar(string nombre)
         {
             if (nombre != null)
             {
-                Regata.Negocio.Regata regataActual = Inicializador.regatas.First(r => r.Nombre.Equals(nombre));
+                Regata.Negocio.Regata regataActual = new RegataRepositorio().ObtenerPorNombre(nombre).FirstOrDefault();
                 RegataViewModel rvm = regataActual.Mapear();
         
                 return View(rvm);
@@ -115,7 +127,7 @@ namespace MvcApplication1.Controllers
 
         public ActionResult Editar(string nombre)
         {
-            var regataActual = Inicializador.regatas.First(r => r.Nombre.Equals(nombre));
+            var regataActual = new RegataRepositorio().ObtenerPorNombre(nombre).FirstOrDefault();
             RegataViewModel rvm = regataActual.Mapear();
             rvm.NombreAnterior = nombre;
 
@@ -140,11 +152,12 @@ namespace MvcApplication1.Controllers
                 try
                 {
                     Regata.Negocio.Regata regata = regataVM.Mapear();
-                    Regata.Negocio.Regata indice = Inicializador.regatas.Find(r => r.Nombre == regataVM.NombreAnterior);
+                    Regata.Negocio.Regata indice = new RegataRepositorio().ObtenerPorNombre(regataVM.NombreAnterior).FirstOrDefault();
                     if (indice !=null)
                     {
                         regata.RegatasClase = indice.RegatasClase;
-                        Inicializador.regatas.Remove(indice);
+                        new RegataRepositorio().Eliminar(indice);
+                        //Inicializador.regatas.Remove(indice);
                     }
                     foreach (var clase in regataVM.ListaClases)
                     {
@@ -186,7 +199,8 @@ namespace MvcApplication1.Controllers
                 try
                 {
                     Regata.Negocio.Regata regata = regataVM.Mapear();
-                    Inicializador.regatas.Add(regata);
+                    new RegataRepositorio().Guardar(regata);
+                    //Inicializador.regatas.Add(regata);
                 }
                 catch (Exception ex)
                 {

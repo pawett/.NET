@@ -11,11 +11,8 @@ D:\VSProjects\Regata\WPFUI\bin\Debug\WPFUI.exe
 D:\VSProjects\Regata\WPFUI\bin\Debug\WPFUI.pdb
 D:\VSProjects\Regata\WPFUI\bin\Debug\Datos.dll
 D:\VSProjects\Regata\WPFUI\bin\Debug\Regata.Negocio.dll
-D:\VSProjects\Regata\WPFUI\bin\Debug\NDatabase3.dll
 D:\VSProjects\Regata\WPFUI\bin\Debug\Datos.pdb
 D:\VSProjects\Regata\WPFUI\bin\Debug\Regata.Negocio.pdb
-D:\VSProjects\Regata\WPFUI\bin\Debug\NDatabase3.pdb
-D:\VSProjects\Regata\WPFUI\bin\Debug\NDatabase3.xml
 D:\VSProjects\Regata\WPFUI\obj\Debug\WPFUI.exe
 D:\VSProjects\Regata\WPFUI\obj\Debug\WPFUI.pdb
 D:\VSProjects\Regata\WPFUI\bin\Debug\Microsoft.Practices.ServiceLocation.dll
@@ -31,3 +28,5 @@ D:\VSProjects\Regata\WPFUI\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 D:\VSProjects\Regata\WPFUI\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 D:\VSProjects\Regata\WPFUI\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
 D:\VSProjects\Regata\WPFUI\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\VSProjects\Regata\WPFUI\bin\Debug\Db4objects.Db4o.dll
+D:\VSProjects\Regata\WPFUI\bin\Debug\Db4objects.Db4o.xml

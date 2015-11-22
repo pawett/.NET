@@ -306,9 +306,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Regata\Negocio.csproj">
+    <ProjectReference Include="..\Regata\Dominio.csproj">
       <Project>{1ebb8509-dc5b-4893-b52f-986c6b4052dd}</Project>
-      <Name>Negocio</Name>
+      <Name>Dominio</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

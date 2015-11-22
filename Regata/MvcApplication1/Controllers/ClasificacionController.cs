@@ -8,6 +8,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MvcApplication1.Extensions;
+using Datos.Repositorios;
 
 namespace MvcApplication1.Controllers
 {
@@ -20,7 +21,7 @@ namespace MvcApplication1.Controllers
         {
             Clase oClase = Inicializador.clases.Find(c => c.Nombre == clase);
             List<RegataClaseViewModel> listaRegatas = new List<RegataClaseViewModel>();
-            Regata.Negocio.Regata oRegata = Inicializador.regatas.Find(r => r.Nombre == regata);
+            Regata.Negocio.Regata oRegata = new RegataRepositorio().ObtenerPorNombre(regata).FirstOrDefault();
             Mapper.CreateMap<RegataClase, RegataClaseViewModel>();
             RegataClaseViewModel regataVM = (oRegata.RegatasClase[oClase]).Mapear(oRegata.Nombre);
 

@@ -75,11 +75,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegataClase.cs" />
     <Compile Include="Regla.cs" />
+    <Compile Include="Repositorios\IRepositorio.cs" />
+    <Compile Include="Repositorios\RegataRepositorio.cs" />
+    <Compile Include="Repositorios\RepositorioBase.cs" />
     <Compile Include="Resolucion.cs" />
     <Compile Include="Resultado.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{1419d0c9-97db-422b-872b-9d7a0e5a696a}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

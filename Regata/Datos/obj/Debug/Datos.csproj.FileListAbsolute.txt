@@ -1,11 +1,8 @@
 D:\VSProjects\Regata\Datos\bin\Debug\Datos.dll
 D:\VSProjects\Regata\Datos\bin\Debug\Datos.pdb
 D:\VSProjects\Regata\Datos\bin\Debug\NDatabase3.dll
-D:\VSProjects\Regata\Datos\bin\Debug\Regata.Negocio.dll
-D:\VSProjects\Regata\Datos\bin\Debug\Regata.Negocio.pdb
 D:\VSProjects\Regata\Datos\bin\Debug\NDatabase3.pdb
 D:\VSProjects\Regata\Datos\bin\Debug\NDatabase3.xml
-D:\VSProjects\Regata\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
 D:\VSProjects\Regata\Datos\obj\Debug\Datos.dll
 D:\VSProjects\Regata\Datos\obj\Debug\Datos.pdb
 D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.ServiceLocation.dll
@@ -21,3 +18,9 @@ D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
 D:\VSProjects\Regata\Datos\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\VSProjects\Regata\Datos\bin\Debug\Db4objects.Db4o.Data.Services.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Db4objects.Db4o.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Db4objects.Db4o.Linq.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Mono.Reflection.dll
+D:\VSProjects\Regata\Datos\bin\Debug\Db4objects.Db4o.xml
+D:\VSProjects\Regata\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
